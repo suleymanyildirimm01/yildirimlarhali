@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-teal: #1a6076;
+  --primary-teal-dark: #155566;
+  --dark-navy: #1a2238;
+  --orange-accent: #e67e22;
+  --orange-accent-hover: #d35400;
+  --beige-bg: #f8f7f7;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.font-work-sans {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.hero-banner {
+  background: linear-gradient(to bottom, rgba(26, 96, 118, 0.95), rgba(26, 96, 118, 0.98)),
+              url('https://ext.same-assets.com/2090353856/2917650607.jpeg') center/cover no-repeat;
+  position: relative;
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 200' preserveAspectRatio='none'%3E%3Cpath fill='rgba(26,96,118,0.3)' d='M0,200 L0,150 Q100,120 200,140 L200,140 Q250,100 300,120 L300,120 L350,80 L370,120 L390,80 L410,120 L460,120 Q510,100 560,140 L560,140 Q660,120 760,140 L760,140 Q810,100 860,120 L860,120 L910,60 L930,120 L950,60 L970,120 L1020,120 Q1070,100 1120,140 L1120,140 Q1220,120 1320,140 L1320,140 Q1370,100 1420,130 L1440,140 L1440,200 Z'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: bottom;
+  pointer-events: none;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.whatsapp-btn {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-teal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-teal-dark);
+}

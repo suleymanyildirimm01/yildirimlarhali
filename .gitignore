@@ -1,0 +1,46 @@
+# See httpshelp.github.comarticlesignoring-files for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.
+.yarn
+!.yarnpatches
+!.yarnplugins
+!.yarnreleases
+!.yarnversions
+
+# testing
+coverage
+
+# next.js
+.next
+out
+
+# production
+build
+
+# misc
+.DS_Store
+.pem
+
+# debug
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+*.log
+.codex-*.log
+
+# env files (can opt-in for committing if needed)
+.env
+
+# vercel
+.vercel
+
+# local cache
+tmp
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
