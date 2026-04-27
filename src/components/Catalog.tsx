@@ -30,28 +30,6 @@ export default function Catalog() {
             />
           </div>
         </div>
-
-        <div className="flex justify-center">
-          <Link
-            href="/catalog/yildirimlar-urun-katalogu.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative group"
-          >
-            <div className="relative w-full max-w-[400px] rounded-lg overflow-hidden shadow-2xl transform group-hover:scale-105 transition-transform duration-300">
-              <img
-                src="https://i.hizliresim.com/fbtmmuv.png"
-                alt="E-Katalog"
-                className="w-full h-auto object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#282e52]/80 to-transparent flex items-end justify-center pb-8">
-                <span className="text-white font-work-sans font-bold text-xl">
-                  E-KATALOG
-                </span>
-              </div>
-            </div>
-          </Link>
-        </div>
       </div>
     </section>
   );
