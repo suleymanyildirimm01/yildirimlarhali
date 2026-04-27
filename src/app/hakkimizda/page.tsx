@@ -92,10 +92,11 @@ export default function AboutPage() {
 
               <div className="mt-6 space-y-6 text-base leading-7 text-gray-600">
                 <p>
-                  Yıldırımlar Cami Otel Kurs Medrese Halıları, yılların verdiği
-                  tecrübemizi özenli işçilik ve doğru ürün seçimiyle bir araya
-                  getirip bir anlayışla hizmet veriyoruz. Her mekanı kendi kullanım
-                  amacına göre değerlendirip, buna uygun zemin çözümleri sunuyoruz.
+                  Yıldırımlar Cami Otel Kurs Medrese Halıları, yurt içi ve yurt
+                  dışında başarılı projelerin yılların verdiği tecrübemizi özenli
+                  işçilik ve doğru ürün seçimiyle bir araya getiren bir anlayışla
+                  hizmet veriyoruz. Her mekanı kendi kullanım amacına göre
+                  değerlendirip, buna uygun zemin çözümleri sunuyoruz.
                 </p>
                 <p>
                   Bizim için kalite sadece ürünün kendisiyle sınırlı değil.
