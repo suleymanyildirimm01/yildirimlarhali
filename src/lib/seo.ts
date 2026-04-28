@@ -41,7 +41,7 @@ export function createPageMetadata({
   const fullTitle = `${title} | ${siteConfig.shortName}`;
 
   return {
-    title,
+    title: path === "/" ? fullTitle : title,
     description,
     alternates: {
       canonical: canonicalUrl,
