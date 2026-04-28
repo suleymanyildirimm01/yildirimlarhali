@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { referenceProjects } from "@/data/references";
+import { createPageMetadata } from "@/lib/seo";
 
 const referenceAreas = [
   {
@@ -67,11 +67,12 @@ const workflow = [
   },
 ];
 
-export const metadata: Metadata = {
-  title: "Referanslarımız | Yıldırımlar Cami Otel Kurs Medrese Halıları",
+export const metadata = createPageMetadata({
+  title: "Referanslarımız",
   description:
-    "Yıldırımlar'ın hizmet verdiği proje alanlarını ve referans yaklaşımını inceleyin.",
-};
+    "Yıldırımlar Halı'nın cami, otel, kurs, medrese ve ticari alanlarda tamamladığı referans projeleri ve zemin uygulamalarını inceleyin.",
+  path: "/referanslarimiz",
+});
 
 export default function ReferencesPage() {
   const referenceCategoryCount = new Set(

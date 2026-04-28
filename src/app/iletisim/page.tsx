@@ -1,14 +1,14 @@
-import type { Metadata } from "next";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "İletişim | Yıldırımlar Cami Otel Kurs Medrese Halıları",
+export const metadata = createPageMetadata({
+  title: "İletişim",
   description:
-    "Telefon, e-posta ve WhatsApp üzerinden Yıldırımlar ile kolayca iletişime geçebilirsiniz.",
-};
+    "Yıldırımlar Halı ile telefon, e-posta ve WhatsApp üzerinden iletişime geçin; Sivas adresimize ulaşım ve teklif bilgilerini inceleyin.",
+  path: "/iletisim",
+});
 
 const quickActions = [
   {

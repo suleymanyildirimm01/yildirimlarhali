@@ -1,16 +1,17 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ProductCatalog from "@/components/ProductCatalog";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Ürün Gruplarımız | Yıldırımlar Cami Otel Kurs Medrese Halıları",
+export const metadata = createPageMetadata({
+  title: "Ürün Gruplarımız",
   description:
-    "Yıldırımlar ürün gruplarını tek sayfada inceleyin ve tüm ürün görsellerine ulaşın.",
-};
+    "Cami, otel, kurs ve medrese alanları için Yıldırımlar ürün gruplarını, desenleri, renkleri ve ürün görsellerini inceleyin.",
+  path: "/urunler",
+});
 
 export default function ProductsPage() {
   return (

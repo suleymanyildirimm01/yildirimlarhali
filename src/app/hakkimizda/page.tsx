@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { createPageMetadata } from "@/lib/seo";
 
 const strengths = [
   {
@@ -29,11 +29,12 @@ const highlights = [
   "Sipariş öncesi destek ve süreç takibi",
 ];
 
-export const metadata: Metadata = {
-  title: "Hakkımızda | Yıldırımlar Cami Otel Kurs Medrese Halıları",
+export const metadata = createPageMetadata({
+  title: "Hakkımızda",
   description:
-    "Yıldırımlar'in kalite anlayışını, hizmet yaklaşımını ve mekanlarınıza özel zemin çözümlerini inceleyin.",
-};
+    "Yıldırımlar Halı'nın tecrübesini, hizmet anlayışını ve cami, otel, kurs, medrese projelerine özel zemin çözümlerini inceleyin.",
+  path: "/hakkimizda",
+});
 
 export default function AboutPage() {
   return (
