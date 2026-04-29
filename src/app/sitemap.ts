@@ -4,7 +4,6 @@ const siteUrl = "https://www.yildirimlarhali.com";
 
 const routes = [
   "",
-  "/cami-halisi",
   "/hakkimizda",
   "/urunler",
   "/referanslarimiz",
@@ -17,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified,
-    changeFrequency: route === "" || route === "/cami-halisi" ? "weekly" : "monthly",
-    priority: route === "" ? 1 : route === "/cami-halisi" ? 0.9 : 0.8,
+    changeFrequency: route === "" ? "weekly" : "monthly",
+    priority: route === "" ? 1 : 0.8,
   }));
 }

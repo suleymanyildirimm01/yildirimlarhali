@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   allowedDevOrigins: ["*.preview.same-app.com"],
+  async redirects() {
+    return [
+      {
+        source: "/cami-halisi",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     unoptimized: true,
     domains: [

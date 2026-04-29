@@ -50,14 +50,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/cami-halisi"
-                  className="text-gray-300 transition-colors hover:text-[#19ada7]"
-                >
-                  Cami Halısı
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/referanslarimiz"
                   className="text-gray-300 transition-colors hover:text-[#19ada7]"
                 >

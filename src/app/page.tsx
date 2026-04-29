@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = createPageMetadata({
-  title: "Cami, Otel, Kurs ve Medrese Halıları",
+  title: "Cami Halısı, Otel Kurs ve Medrese Halıları",
   description:
-    "Yıldırımlar Halı; cami, otel, kurs ve medrese projeleri için kaliteli halı, ürün grupları ve profesyonel zemin çözümleri sunar.",
+    "Cami halısı modelleri, otel, kurs ve medrese projeleri için kaliteli halı, ürün grupları ve profesyonel zemin çözümleri.",
   path: "/",
 });
 

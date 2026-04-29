@@ -49,11 +49,11 @@ const organizationJsonLd = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Cami, Otel, Kurs ve Medrese Halıları`,
+    default: `${siteConfig.name} | Cami Halısı, Otel Kurs ve Medrese Halıları`,
     template: `%s | ${siteConfig.shortName}`,
   },
   description:
-    "Yıldırımlar Cami Otel Kurs Medrese Halıları; cami, otel, kurs ve medrese projeleri için kaliteli halı ve zemin çözümleri sunar.",
+    "Yıldırımlar Cami Otel Kurs Medrese Halıları; cami halısı, otel, kurs ve medrese projeleri için kaliteli halı ve zemin çözümleri sunar.",
   applicationName: siteConfig.name,
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,
@@ -70,9 +70,9 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | Cami, Otel, Kurs ve Medrese Halıları`,
+    title: `${siteConfig.name} | Cami Halısı, Otel Kurs ve Medrese Halıları`,
     description:
-      "Cami, otel, kurs ve medrese alanları için kaliteli halı, ürün grupları ve projeye uygun zemin çözümleri.",
+      "Cami halısı, otel, kurs ve medrese alanları için kaliteli halı, ürün grupları ve projeye uygun zemin çözümleri.",
     images: [
       {
         url: logoUrl,
@@ -84,9 +84,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | Cami, Otel, Kurs ve Medrese Halıları`,
+    title: `${siteConfig.name} | Cami Halısı, Otel Kurs ve Medrese Halıları`,
     description:
-      "Cami, otel, kurs ve medrese alanları için kaliteli halı ve zemin çözümleri.",
+      "Cami halısı, otel, kurs ve medrese alanları için kaliteli halı ve zemin çözümleri.",
     images: [logoUrl],
   },
   robots: {

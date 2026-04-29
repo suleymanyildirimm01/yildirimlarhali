@@ -63,17 +63,17 @@ export default function Hero() {
             </p>
 
             <h1 className="font-serif-display text-4xl md:text-5xl lg:text-6xl text-[#282e52] mb-6">
-              Yıldırımlar Cami Otel Kurs Medrese Halıları
+              Yıldırımlar Cami Halısı, Otel Kurs ve Medrese Halıları
             </h1>
 
             <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
-              <strong className="text-[#282e52]">Yıldırımlar Cami Otel Kurs Medrese Halıları&apos;nın</strong> ürünleri, özenle seçilmiş
+              <strong className="text-[#282e52]">Yıldırımlar cami halısı</strong> ürünleri, otel, kurs ve medrese projeleri için özenle seçilmiş
               yüksek kaliteli malzemelerden üretilmekte olup, uzun ömürlü kullanım sağlamaktadır.
             </p>
 
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/cami-halisi"
+                href="#urunler"
                 className="inline-flex items-center gap-2 bg-[#282e52] text-white px-8 py-4 rounded font-work-sans font-semibold hover:bg-[#1e2240] transition-colors group"
               >
                 Cami Halısı
