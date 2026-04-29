@@ -21,20 +21,65 @@ export const siteConfig = {
     latitude: 39.7433372,
     longitude: 37.0232877,
   },
+  serviceAreas: [
+    "Sivas",
+    "Ankara",
+    "İstanbul",
+    "Samsun",
+    "Ordu",
+    "Van",
+    "Trabzon",
+    "Sinop",
+    "Tokat",
+    "Yozgat",
+    "Konya",
+    "Mersin",
+    "Türkiye",
+    "Yurt dışı",
+  ],
 };
 
 export const logoUrl = `${siteConfig.url}${siteConfig.logoPath}`;
+
+export const seoKeywords = [
+  "cami halısı",
+  "otel halısı",
+  "kurs halısı",
+  "medrese halısı",
+  "mescit halısı",
+  "sivas cami halısı",
+  "ankara cami halısı",
+  "sivas halı",
+  "ankara halı",
+  "istanbul cami halısı",
+  "samsun cami halısı",
+  "cami halısı modelleri",
+  "cami halısı fiyat",
+  "cami halısı döşeme",
+  "ordu cami halısı",
+  "van cami halısı",
+  "trabzon cami halısı",
+  "sinop cami halısı",
+  "tokat cami halısı",
+  "yozgat cami halısı",
+  "konya cami halısı",
+  "mersin cami halısı",
+  "cami halıları",
+  "camii halısı",
+];
 
 type PageMetadataInput = {
   title: string;
   description: string;
   path?: string;
+  keywords?: string[];
 };
 
 export function createPageMetadata({
   title,
   description,
   path = "/",
+  keywords,
 }: PageMetadataInput): Metadata {
   const canonicalPath = path === "/" ? "" : path;
   const canonicalUrl = `${siteConfig.url}${canonicalPath}`;
@@ -43,6 +88,7 @@ export function createPageMetadata({
   return {
     title: path === "/" ? fullTitle : title,
     description,
+    keywords,
     alternates: {
       canonical: canonicalUrl,
     },

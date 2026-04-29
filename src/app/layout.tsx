@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ClientBody } from "./ClientBody";
-import { logoUrl, siteConfig } from "@/lib/seo";
+import { logoUrl, seoKeywords, siteConfig } from "@/lib/seo";
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
@@ -31,7 +31,8 @@ const organizationJsonLd = {
         latitude: siteConfig.geo.latitude,
         longitude: siteConfig.geo.longitude,
       },
-      areaServed: ["TR", "Yurt dışı"],
+      areaServed: siteConfig.serviceAreas,
+      knowsAbout: seoKeywords,
     },
     {
       "@type": "WebSite",
@@ -54,6 +55,7 @@ export const metadata: Metadata = {
   },
   description:
     "Yıldırımlar Cami Otel Kurs Medrese Halıları; cami halısı, otel, kurs ve medrese projeleri için kaliteli halı ve zemin çözümleri sunar.",
+  keywords: seoKeywords,
   applicationName: siteConfig.name,
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,
