@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { ClientBody } from "./ClientBody";
 import { logoUrl, seoKeywords, siteConfig } from "@/lib/seo";
@@ -122,7 +123,25 @@ export default function RootLayout({
           }}
         />
       </head>
-      <ClientBody>{children}</ClientBody>
+      <ClientBody>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18124998793"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-ads-tag"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'AW-18124998793');
+            `,
+          }}
+        />
+        {children}
+      </ClientBody>
     </html>
   );
 }

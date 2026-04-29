@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -45,6 +46,17 @@ const mapsDirectionsUrl = `https://maps.app.goo.gl/m92kWMTzrD6ZZ1449`;
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white">
+      <Script
+        id="google-ads-contact-conversion"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            gtag('event', 'conversion', {
+              'send_to': 'AW-18124998793/vgfHCOud8qMcEImR1sJD'
+            });
+          `,
+        }}
+      />
       <Header />
 
       <section className="relative isolate overflow-hidden bg-[#282e52] text-white">
