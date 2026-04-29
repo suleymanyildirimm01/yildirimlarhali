@@ -71,26 +71,34 @@ export default function Hero() {
               yüksek kaliteli malzemelerden üretilmekte olup, uzun ömürlü kullanım sağlamaktadır.
             </p>
 
-            <Link
-              href="/urunler"
-              className="inline-flex items-center gap-2 bg-[#282e52] text-white px-8 py-4 rounded font-work-sans font-semibold hover:bg-[#1e2240] transition-colors group"
-            >
-              Detaylı İncele
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="group-hover:translate-x-1 transition-transform"
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/cami-halisi"
+                className="inline-flex items-center gap-2 bg-[#282e52] text-white px-8 py-4 rounded font-work-sans font-semibold hover:bg-[#1e2240] transition-colors group"
               >
-                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
-              </svg>
-            </Link>
+                Cami Halısı
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="group-hover:translate-x-1 transition-transform"
+                >
+                  <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+                </svg>
+              </Link>
+              <Link
+                href="/urunler"
+                className="inline-flex items-center gap-2 rounded border border-[#282e52]/20 bg-white/80 px-8 py-4 font-work-sans font-semibold text-[#282e52] transition-colors hover:border-[#19ada7] hover:text-[#19ada7]"
+              >
+                Ürünleri İncele
+              </Link>
+            </div>
           </div>
 
           {/* Right Content - Carpet Images */}

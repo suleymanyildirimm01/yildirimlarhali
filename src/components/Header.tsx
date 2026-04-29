@@ -82,6 +82,12 @@ export default function Header() {
               Ürün Gruplarımız
             </Link>
             <Link
+              href="/cami-halisi"
+              className="text-[#282e52] font-work-sans text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#19ada7]"
+            >
+              Cami Halısı
+            </Link>
+            <Link
               href="/referanslarimiz"
               className="text-[#282e52] font-work-sans text-sm font-medium uppercase tracking-wide transition-colors hover:text-[#19ada7]"
             >
@@ -169,6 +175,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Ürün Gruplarımız
+              </Link>
+              <Link
+                href="/cami-halisi"
+                className="px-4 font-work-sans text-sm font-medium uppercase tracking-wide text-[#282e52] transition-colors hover:text-[#19ada7]"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Cami Halısı
               </Link>
               <Link
                 href="/referanslarimiz"
