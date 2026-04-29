@@ -10,6 +10,256 @@ export interface ReferenceProject {
 
 export const referenceProjects: ReferenceProject[] = [
   {
+    slug: "sivas-karsiyaka-merkez-camii",
+    title: "Sivas Karşıyaka Merkez Camii",
+    city: "Sivas",
+    location: "Sivas Karşıyaka",
+    category: "Cami",
+    description:
+      "Turkuaz cami halısı ve saf düzeniyle tamamlanan Karşıyaka Merkez Camii uygulaması.",
+    image: "/references/projects/sivas-karsiyaka-merkez-camii.webp",
+  },
+  {
+    slug: "istanbul-masko-mobilya-magazasi",
+    title: "İstanbul Masko Mobilya Mağazası",
+    city: "İstanbul",
+    location: "İstanbul Masko",
+    category: "Mağaza",
+    description:
+      "Mobilya mağazası için gri karo halı ile hazırlanan modern zemin uygulaması.",
+    image: "/references/projects/istanbul-masko-mobilya-magazasi.webp",
+  },
+  {
+    slug: "sivas-botas-mescid",
+    title: "Sivas Botaş Mescid",
+    city: "Sivas",
+    location: "Sivas",
+    category: "Mescit",
+    description:
+      "Mescit alanında sade ve ferah zemin görünümü sağlayan halı uygulaması.",
+    image: "/references/projects/sivas-botas-mescid.webp",
+  },
+  {
+    slug: "sivas-merkez-ivapark-avm-mescid",
+    title: "Sivas Merkez İvapark AVM Mescid",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Mescit",
+    description:
+      "AVM mescidi için turkuaz saf düzeniyle tamamlanan cami halısı uygulaması.",
+    image: "/references/projects/sivas-merkez-ivapark-avm-mescid.webp",
+  },
+  {
+    slug: "tokat-merkez-camlibel-misafirhanesi",
+    title: "Tokat Merkez Çamlıbel Misafirhanesi",
+    city: "Tokat",
+    location: "Tokat Merkez",
+    category: "Misafirhane",
+    description:
+      "Misafirhane kullanımına uygun kahverengi desenli halı uygulaması.",
+    image: "/references/projects/tokat-merkez-camlibel-misafirhanesi.webp",
+  },
+  {
+    slug: "sivas-merkez-zabita-mudurlugu-mescid",
+    title: "Sivas Merkez Zabıta Müdürlüğü Mescid",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Mescit",
+    description:
+      "Zabıta Müdürlüğü mescidi için turkuaz cami halısı uygulaması.",
+    image: "/references/projects/sivas-merkez-zabita-mudurlugu-mescid.webp",
+  },
+  {
+    slug: "sivas-ulas-kaymakamligi-kivircik",
+    title: "Sivas Ulaş Kaymakamlığı Kıvırcık Halı",
+    city: "Sivas",
+    location: "Sivas Ulaş",
+    category: "Kurumsal",
+    description:
+      "Kaymakamlık giriş merdivenlerinde kıvırcık halı ile tamamlanan uygulama.",
+    image: "/references/projects/sivas-ulas-kaymakamligi-kivircik.webp",
+  },
+  {
+    slug: "sivas-merkez-sancak-camii",
+    title: "Sivas Merkez Sancak Camii",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Cami",
+    description:
+      "Turkuaz tonlu cami halısı ve saf çizgileriyle hazırlanan Sancak Camii uygulaması.",
+    image: "/references/projects/sivas-merkez-sancak-camii.webp",
+  },
+  {
+    slug: "van-muradiye-balakli-koyu-camii",
+    title: "Van Muradiye Balaklı Köyü Camii",
+    city: "Van",
+    location: "Van Muradiye",
+    category: "Cami",
+    description:
+      "Köy camii için turkuaz tonlarda uygulanan cami halısı referansı.",
+    image: "/references/projects/van-muradiye-balakli-koyu-camii.webp",
+  },
+  {
+    slug: "istanbul-masko-akr-showroom",
+    title: "İstanbul Masko AKR Showroom",
+    city: "İstanbul",
+    location: "İstanbul Masko",
+    category: "Showroom",
+    description:
+      "Showroom zemini için gri karo halı ile hazırlanan şık ve kullanışlı uygulama.",
+    image: "/references/projects/istanbul-masko-akr-showroom.webp",
+  },
+  {
+    slug: "istanbul-masko-akr-ofis-mobilyalari",
+    title: "İstanbul Masko AKR Ofis Mobilyaları",
+    city: "İstanbul",
+    location: "İstanbul Masko",
+    category: "Ofis",
+    description:
+      "Ofis ve mağaza kullanımına uygun karo halı zemin uygulaması.",
+    image: "/references/projects/istanbul-masko-akr-ofis-mobilyalari.webp",
+  },
+  {
+    slug: "kahramanmaras-elbistan-camii",
+    title: "Kahramanmaraş Elbistan Camii",
+    city: "Kahramanmaraş",
+    location: "Elbistan",
+    category: "Cami",
+    description:
+      "Elbistan bölgesinde cami halısı döşeme çalışmasıyla tamamlanan referans.",
+    image: "/references/projects/kahramanmaras-elbistan-camii.webp",
+  },
+  {
+    slug: "sivas-merkez-ak-mescit-camii",
+    title: "Sivas Merkez Ak Mescit Camii",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Cami",
+    description:
+      "Merkez madalyonlu turkuaz cami halısıyla tamamlanan Ak Mescit Camii uygulaması.",
+    image: "/references/projects/sivas-merkez-ak-mescit-camii.webp",
+  },
+  {
+    slug: "sivas-gurun-yolgecen-koyu-camii",
+    title: "Sivas Gürün Yolgeçen Köyü Camii",
+    city: "Sivas",
+    location: "Sivas Gürün",
+    category: "Cami",
+    description:
+      "Yolgeçen Köyü Camii için bordürlü kırmızı cami halısı uygulaması.",
+    image: "/references/projects/sivas-gurun-yolgecen-koyu-camii.webp",
+  },
+  {
+    slug: "malatya-darende",
+    title: "Malatya Darende Camii",
+    city: "Malatya",
+    location: "Darende",
+    category: "Cami",
+    description:
+      "Darende bölgesinde bordo cami halısı ile tamamlanan ibadethane uygulaması.",
+    image: "/references/projects/malatya-darende.webp",
+  },
+  {
+    slug: "sivas-merkez-chocolabs-tatami",
+    title: "Sivas Merkez Chocolabs Tatami",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Tatami",
+    description:
+      "Çocuk oyun alanı için renkli tatami zemin kaplama uygulaması.",
+    image: "/references/projects/sivas-merkez-chocolabs-tatami.webp",
+  },
+  {
+    slug: "sivas-ulas-merkez-camii-kuran-kursu",
+    title: "Sivas Ulaş Merkez Camii Kur'an Kursu",
+    city: "Sivas",
+    location: "Sivas Ulaş",
+    category: "Kurs",
+    description:
+      "Kur'an kursu alanı için düzenli ve konforlu zemin uygulaması.",
+    image: "/references/projects/sivas-ulas-merkez-camii-kuran-kursu.webp",
+  },
+  {
+    slug: "sivas-merkez-kuran-egitimi-merkezi-hol",
+    title: "Sivas Merkez Kur'an Eğitimi Merkezi Hol",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Kurs",
+    description:
+      "Kur'an Eğitimi Merkezi hol alanında sade tonlu halı uygulaması.",
+    image: "/references/projects/sivas-merkez-kuran-egitimi-merkezi-hol.webp",
+  },
+  {
+    slug: "sivas-merkez-kuran-egitimi-merkezi",
+    title: "Sivas Merkez Kur'an Eğitimi Merkezi",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Kurs",
+    description:
+      "Eğitim merkezi ortak alanı için dayanıklı halı zemin uygulaması.",
+    image: "/references/projects/sivas-merkez-kuran-egitimi-merkezi.webp",
+  },
+  {
+    slug: "sivas-merkez-alibaba-yildizevler-camii",
+    title: "Sivas Merkez Alibaba Yıldızevler Camii",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Cami",
+    description:
+      "Yıldızevler Camii için turkuaz cami halısı ve saf düzeni uygulaması.",
+    image: "/references/projects/sivas-merkez-alibaba-yildizevler-camii.webp",
+  },
+  {
+    slug: "sivas-merkez-ozkaya-otel",
+    title: "Sivas Merkez Özkaya Otel",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Otel",
+    description:
+      "Otel ortak alanında desenli halı ile tamamlanan konaklama alanı uygulaması.",
+    image: "/references/projects/sivas-merkez-ozkaya-otel.webp",
+  },
+  {
+    slug: "sivas-merkez-yamac-kafe-cocuk-oyun-alani",
+    title: "Sivas Merkez Yamaç Kafe Çocuk Oyun Alanı",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Oyun Alanı",
+    description:
+      "Çocuk oyun alanı için renkli yol desenli halı uygulaması.",
+    image: "/references/projects/sivas-merkez-yamac-kafe-cocuk-oyun-alani.webp",
+  },
+  {
+    slug: "sivas-genel-camii",
+    title: "Sivas Camii Projesi",
+    city: "Sivas",
+    location: "Sivas",
+    category: "Cami",
+    description:
+      "Bordo cami halısı ve klasik saf bordürleriyle tamamlanan Sivas camii uygulaması.",
+    image: "/references/projects/sivas-genel-camii.webp",
+  },
+  {
+    slug: "sivas-merkez-atolye-camii",
+    title: "Sivas Merkez Atölye Camii",
+    city: "Sivas",
+    location: "Sivas Merkez",
+    category: "Cami",
+    description:
+      "Geniş ibadet alanı için turkuaz tonlarda hazırlanan cami halısı uygulaması.",
+    image: "/references/projects/sivas-merkez-atolye-camii.webp",
+  },
+  {
+    slug: "istanbul-camii-projesi",
+    title: "İstanbul Camii Projesi",
+    city: "İstanbul",
+    location: "İstanbul",
+    category: "Cami",
+    description:
+      "Geniş cami alanı için merkez madalyonlu halı uygulaması.",
+    image: "/references/projects/istanbul-camii-projesi.webp",
+  },
+  {
     slug: "ankara-cami",
     title: "Ankara Projesi",
     city: "Ankara",
