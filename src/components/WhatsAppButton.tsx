@@ -30,7 +30,7 @@ export default function WhatsAppButton() {
 
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/905054315101"
+        href="https://wa.me/905377410620"
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-btn w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow"

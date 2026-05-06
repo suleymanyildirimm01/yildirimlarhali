@@ -27,7 +27,7 @@ const quickActions = [
   {
     title: "WhatsApp",
     value: "Hemen yazın",
-    href: "https://wa.me/905054315101",
+    href: "https://wa.me/905377410620",
     description: "Hızlı cevap almak için WhatsApp hattımızı kullanabilirsiniz.",
   },
 ];
@@ -88,7 +88,7 @@ export default function ContactPage() {
               Hemen Ara
             </a>
             <a
-              href="https://wa.me/905054315101"
+              href="https://wa.me/905377410620"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded border border-white/20 px-6 py-3 font-work-sans font-semibold text-white transition hover:bg-white/10"
