@@ -10,6 +10,16 @@ export interface ReferenceProject {
 
 export const referenceProjects: ReferenceProject[] = [
   {
+    slug: "sivas-merkez-tatlicak-koyu-camii",
+    title: "Sivas Merkez Tatlıcak Köyü Camii",
+    city: "Sivas",
+    location: "Sivas Merkez Tatlıcak Köyü",
+    category: "Cami",
+    description:
+      "Tatlıcak Köyü Camii için turkuaz cami halısı ve saf düzeniyle tamamlanan uygulama.",
+    image: "/references/projects/sivas-merkez-tatlicak-koyu-camii.webp",
+  },
+  {
     slug: "sivas-karsiyaka-merkez-camii",
     title: "Sivas Karşıyaka Merkez Camii",
     city: "Sivas",
